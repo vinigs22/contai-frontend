@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #6052E4;
+    --color-primaryhover: #41389A;
+    --color-background: #F9FAFB;
+    --color-gray: #555555;
+    --color-lightgray: #838383;
+    --color-pastelgreen: #5EAC5B;
+    --color-pastelred: #C36767;
+    --color-pastelredhover: #984C4C;
+    --font-inter: "Inter", "sans-serif";
+
+}
+
+body {
+    @apply bg-background font-inter ;
+}
